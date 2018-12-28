@@ -1,0 +1,106 @@
+.search-warpper {
+  background-color: #eb4450;
+  padding: 5px;
+}
+
+.search-warpper .search-input {
+  height: 60rpx;
+  background-color: white;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #130404;
+}
+
+.slide-image {
+  height: 340rpx;
+  width: 100%;
+}
+
+.muns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 140rpx;
+}
+
+.muns .muns-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.muns .muns-item img {
+  width: 128rpx;
+  display: block;
+  height: 140rpx;
+  margin: 0 auto;
+}
+
+.floor .floor-title {
+  margin-top: 20rpx;
+}
+
+.floor .floor-title img {
+  width: 750rpx;
+  height: 60rpx;
+  display: block;
+}
+
+.floor .product {
+  padding: 20rpx;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.floor .product .left {
+  margin-right: 15rpx;
+}
+
+.floor .product .left img {
+  width: 232rpx;
+  height: 385rpx;
+}
+
+.floor .product .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.floor .product .right img {
+  width: 232rpx;
+  height: 188rpx;
+}
+
+.back-top {
+  width: 750rpx;
+  height: 100rpx;
+}
+
+.back-top img {
+  display: block;
+  width: 100rpx;
+  height: 100rpx;
+  float: right;
+  margin-right: 20rpx;
+}
+/*# sourceMappingURL=style.css.map */

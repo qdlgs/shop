@@ -1,0 +1,102 @@
+.item-list {
+  position: fixed;
+  top: 80rpx;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item-list .left {
+  width: 200rpx;
+  height: 100%;
+  overflow: scroll;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.item-list .left .left-list {
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  position: relative;
+}
+
+.item-list .left .active {
+  color: pink;
+  background: #fff;
+}
+
+.item-list .left .active::before {
+  display: block;
+  content: '';
+  width: 8rpx;
+  height: 60rpx;
+  position: absolute;
+  background: skyblue;
+  top: 20rpx;
+  left: 0;
+}
+
+.item-list .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100%;
+  overflow: auto;
+}
+
+.item-list .right .right-pic {
+  padding: 20rpx;
+}
+
+.item-list .right .right-pic img {
+  width: 100%;
+  height: 200rpx;
+  display: block;
+}
+
+.item-list .right .brand .right-title {
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-weight: 700;
+}
+
+.item-list .right .brand .right-title span {
+  color: #ccc;
+  margin: 0 20rpx;
+}
+
+.item-list .right .brand .brand-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20rpx;
+}
+
+.item-list .right .brand .brand-list .brand-item {
+  width: 33%;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 30rpx;
+  padding: 0 20rpx;
+}
+
+.item-list .right .brand .brand-list .brand-item img {
+  width: 100%;
+  height: 120rpx;
+  display: block;
+  margin-bottom: 10rpx;
+}
+/*# sourceMappingURL=style.css.map */
